@@ -52,26 +52,26 @@ public class CalcWindow {
 
     @FXML
     public void subtractPressed(){
-        var numberAsText =  numberField.getText(); // grabbed test from number field
-        firstNumber = Long.parseLong(numberAsText); // stored it as an int instead of string
-        numberField.setText("");
+        processNumber();
         operation = OperatorType.Subtract;
     }
 
     @FXML
     public void multiplyPressed(){
-        var numberAsText =  numberField.getText(); // grabbed test from number field
-        firstNumber = Long.parseLong(numberAsText); // stored it as an int instead of string
-        numberField.setText("");
+        processNumber();
         operation = OperatorType.Multiply;
     }
 
     @FXML
     public void dividePressed(){
+        processNumber();
+        operation = OperatorType.Divide;
+    }
+
+    private void processNumber(){
         var numberAsText =  numberField.getText(); // grabbed test from number field
         firstNumber = Long.parseLong(numberAsText); // stored it as an int instead of string
         numberField.setText("");
-        operation = OperatorType.Divide;
     }
 
 

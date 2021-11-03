@@ -87,6 +87,21 @@
                         <Font size="19.0" />
                      </font>
                   </Button>
+                  <Button mnemonicParsing="false" onAction="#subtractPressed" prefHeight="89.0" prefWidth="118.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#multiplyPressed" prefHeight="87.0" prefWidth="118.0" text="X" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#dividePressed" prefHeight="87.0" prefWidth="120.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
                </children>
             </GridPane>
          </children>
