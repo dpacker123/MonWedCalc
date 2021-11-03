@@ -67,7 +67,22 @@
                         <Font size="19.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="90.0" prefWidth="123.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <Button mnemonicParsing="false" onAction="#numberButtonPressed" prefHeight="84.0" prefWidth="113.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#clearButtonPressed" prefHeight="86.0" prefWidth="115.0" text="CE" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#plusPressed" prefHeight="87.0" prefWidth="113.0" text="+" GridPane.columnIndex="3">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#equalPressed" prefHeight="84.0" prefWidth="120.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <font>
                         <Font size="19.0" />
                      </font>

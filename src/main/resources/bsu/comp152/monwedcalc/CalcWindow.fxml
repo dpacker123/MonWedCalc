@@ -77,6 +77,16 @@
                         <Font size="19.0" />
                      </font>
                   </Button>
+                  <Button mnemonicParsing="false" onAction="#plusPressed" prefHeight="87.0" prefWidth="113.0" text="+" GridPane.columnIndex="3">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#equalPressed" prefHeight="84.0" prefWidth="120.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
                </children>
             </GridPane>
          </children>
